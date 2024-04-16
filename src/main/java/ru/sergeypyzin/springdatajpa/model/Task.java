@@ -2,7 +2,8 @@ package ru.sergeypyzin.springdatajpa.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import ru.sergeypyzin.springdatajpa.TaskStatus;
+import ru.sergeypyzin.springdatajpa.enums.TaskStatus;
+
 
 import java.time.Clock;
 import java.time.LocalDateTime;
