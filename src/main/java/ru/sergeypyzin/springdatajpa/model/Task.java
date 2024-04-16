@@ -14,19 +14,19 @@ import java.time.LocalDateTime;
  */
 @Data
 @Entity
-@Table (name = "tasks")
+@Table
 public class Task {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column (nullable = false, name = "description")
+    @Column (nullable = false)
     private String description;
 
-    @Column(nullable = false, name = "task_status")
+    @Column(nullable = false)
     private TaskStatus taskStatus = TaskStatus.NOT_STARTED;
 
-    @Column(nullable = false, name = "creation_time")
+    @Column(nullable = false)
     private LocalDateTime creationTime = LocalDateTime.now(Clock.systemDefaultZone());
 }
