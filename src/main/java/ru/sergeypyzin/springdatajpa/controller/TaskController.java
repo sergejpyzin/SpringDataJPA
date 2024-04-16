@@ -2,7 +2,8 @@ package ru.sergeypyzin.springdatajpa.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.sergeypyzin.springdatajpa.TaskStatus;
+
+import ru.sergeypyzin.springdatajpa.enums.TaskStatus;
 import ru.sergeypyzin.springdatajpa.model.Task;
 import ru.sergeypyzin.springdatajpa.service.TaskService;
 
