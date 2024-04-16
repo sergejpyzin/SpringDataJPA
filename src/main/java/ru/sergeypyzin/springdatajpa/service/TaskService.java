@@ -2,7 +2,7 @@ package ru.sergeypyzin.springdatajpa.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.sergeypyzin.springdatajpa.TaskStatus;
+import ru.sergeypyzin.springdatajpa.enums.TaskStatus;
 import ru.sergeypyzin.springdatajpa.model.Task;
 import ru.sergeypyzin.springdatajpa.repository.TaskRepository;
 
